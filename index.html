@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <main class="tip-calculator-card">
+        <h1>Tip Calculator</h1>
+
+        <div class="input-group">
+            <label for="billAmount">Bill Amount</label>
+            <input id="billAmount" type="number" step="0.01" placeholder="e.g. 83.45" />
+        </div>
+
+        <div class="input-group">
+            <label for="serviceQuality">Service Quality</label>
+            <select id="serviceQuality">
+                <option value="">-- choose --</option>
+                <option value="0.20">Excellent (20%)</option>
+                <option value="0.15">Good (15%)</option>
+                <option value="0.10">Average (10%)</option>
+                <option value="0.05">Poor (5%)</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="numberOfPeople">Number of People</label>
+            <input id="numberOfPeople" type="number" min="1" step="1" placeholder="1" />
+        </div>
+
+        <button id="calculateBtn">Calculate</button>
+
+        <section id="resultArea" class="result-area" style="display:none;margin-top:1.5rem;">
+            <!-- results inserted by src/js/app.js -->
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+```// filepath: c:\Users\Aswinth\Git\tip-calculator\src\index.html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <main class="tip-calculator-card">
+        <h1>Tip Calculator</h1>
+
+        <div class="input-group">
+            <label for="billAmount">Bill Amount</label>
+            <input id="billAmount" type="number" step="0.01" placeholder="e.g. 83.45" />
+        </div>
+
+        <div class="input-group">
+            <label for="serviceQuality">Service Quality</label>
+            <select id="serviceQuality">
+                <option value="">-- choose --</option>
+                <option value="0.20">Excellent (20%)</option>
+                <option value="0.15">Good (15%)</option>
+                <option value="0.10">Average (10%)</option>
+                <option value="0.05">Poor (5%)</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="numberOfPeople">Number of People</label>
+            <input id="numberOfPeople" type="number" min="1" step="1" placeholder="1" />
+        </div>
+
+        <button id="calculateBtn">Calculate</button>
+
+        <section id="resultArea" class="result-area" style="display:none;margin-top:1.5rem;">
+            <!-- results inserted by src/js/app.js -->
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
